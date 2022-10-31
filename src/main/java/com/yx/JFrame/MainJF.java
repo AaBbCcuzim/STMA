@@ -430,6 +430,10 @@ public class MainJF extends JFrame {
 		mnNewMenu_2.add(mnNewMenu_8);
 				
 		JButton btnNewButton = new JButton("随机排列");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btnNewButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
